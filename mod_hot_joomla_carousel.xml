@@ -16,7 +16,8 @@
 		<folder>tmpl</folder>
 	</files>
 	<languages>
-		<language tag="en-GB">en-GB.mod_hot_joomla_carousel.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_hot_joomla_carousel.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_hot_joomla_carousel.sys.ini</language>
 	</languages>
 	<updateservers>
 		<server type="extension" priority="1" name="Hot Joomla Carousel Update">http://update.hotjoomlatemplates.com/mod_hot_joomla_carousel_update.xml</server>
