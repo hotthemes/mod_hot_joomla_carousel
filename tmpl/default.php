@@ -104,9 +104,9 @@ if ($fullWidth) {
                     $pic_type = explode(".", $infinite_pic[$loop]);
                     if($pic_type[1]) {
                         if ($pic_type[1]=="jpg" || $pic_type[1]=="gif" || $pic_type[1]=="jpeg" || $pic_type[1]=="png") {
-                            echo '<div class="gallery-cell"><img src="'.$carouselImagesPath.'/'.$infinite_pic[$loop].'" alt="" width="'.$imageWidth.'" height="'.$imageHeight.'" /></div>';
+                            echo '<div class="gallery-cell"><img src="'.$carouselImagesPath.'/'.$infinite_pic[$loop].'" alt="" /></div>';
                         } elseif (  $pic_type[1]=="JPG" || $pic_type[1]=="GIF" || $pic_type[1]=="JPEG" || $pic_type[1]=="PNG") {
-                            echo '<div class="gallery-cell"><img src="'.$carouselImagesPath.'/'.$infinite_pic[$loop].'" alt="" width="'.$imageWidth.'" height="'.$imageHeight.'" /></div>';                   
+                            echo '<div class="gallery-cell"><img src="'.$carouselImagesPath.'/'.$infinite_pic[$loop].'" alt="" /></div>';                   
                         }
                     }
                 }
